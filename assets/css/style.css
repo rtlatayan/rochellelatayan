@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.inter-font {
+  font-family: "Pacifico", cursive;
+}
+
+html {
+  scroll-padding-top: 56px;
+}
+
+.cover-container {
+  min-height: 500px;
+}
+
+.navbar-custom .nav-link {
+  color: #00adb5;
+}
+
+.navbar-custom .nav-link.active {
+  background-color: #00adb5;
+}
+
+.btn-custom-primary {
+  background-color: #00adb5;
+  color: white;
+  border: none;
+}
+
+.btn-custom-primary:hover {
+  background-color: #00979a;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .cover-container {
+    height: 100vh;
+  }
+}
